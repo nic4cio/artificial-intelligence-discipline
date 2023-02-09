@@ -102,8 +102,8 @@ sol = dfs(initial_state)
 for i in range(1, len(sol)):
     destiny_missionaries = abs(sol[i][0] - sol[i-1][0])
     destiny_cannibals = abs(sol[i][1] - sol[i-1][1])
-    canoa = sol[i][4]-sol[i-1][4]
-    if canoa == 1:
+    canoe = sol[i][4]-sol[i-1][4]
+    if canoe == 1:
         s = "->"
     else:
         s = "<-"
