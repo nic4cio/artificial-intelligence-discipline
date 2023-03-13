@@ -109,4 +109,6 @@ for i in range(1, len(sol)):
         s = "<-"
     print(sol[i-1],"({},{},{})".format(destiny_missionaries,destiny_cannibals,s))
 
+print(f"{sol[i]} (FINAL)")
+
 
